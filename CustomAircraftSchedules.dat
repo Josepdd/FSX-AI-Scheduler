@@ -82,6 +82,15 @@ B738W-190,EI-DPD,30,ONE_DAY,IFR
 	1940,LIME,330,4664
 }
 
+# Aircraft type: EMBRAER 145
+# Tail number: CS-TPI
+# Traffic density: 30%
+# Repeats every: ONE_DAY
+# Flight rules: IFR
+# Schedule:
+# Time	Departure	Destination	Altitude	FlightNumber
+# 0435Z	LEVC		LISBON		FL300		1091
+
 # Aircraft type: B738W-190
 # Tail number: EI-DLN
 # Traffic density: 30%
