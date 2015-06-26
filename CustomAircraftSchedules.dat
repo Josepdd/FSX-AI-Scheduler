@@ -1,0 +1,99 @@
+# Aircraft type: CRJX-1/ATR726-1
+# Tail number: EC-JZV/EC-JZU
+# Traffic density: 30%
+# Repeats every: ONE_DAY
+# Flight rules: IFR
+# Schedule:
+# Time	Departure	Destination		Altitude	FlightNumber
+# 0400Z LEVC		LEMD			FL120		8999
+# 0605Z	LEMD		LEVC			FL120		8986
+# 0730Z LEVC		LEMD			FL120		8993
+# 0815Z LEVC 		LEMD			FL120		8987
+# 1010Z	LEMD		LEVC			FL120		8974
+# 1120Z LEVC		LEMD			FL120		8981
+# 1410Z LEMD		LEVC			FL124		8976
+# 1650Z LEVC 		LEMD			FL120		8977
+# 1815Z LEMD		LEVC			FL120		8996
+# 2050Z LEMD		LEVC			FL120		8992
+
+CRJX-1,EC-JZV,30,ONE_DAY,IFR
+{
+	0400,LEMD,120,8999
+	0605,LEVC,130,8986
+	0730,LEMD,120,8993
+	1010,LEVC,130,8974
+	1120,LEMD,120,8981
+	1410,LEVC,130,8976
+	1650,LEMD,120,8977
+	2050,LEVC,130,8992
+}
+
+ATR726-1,EC-JZU,30,ONE_DAY,IFR
+{
+	0815,LEMD,120,8987
+	1815,LEVC,130,8996
+}
+
+# Aircraft type: B738W-190
+# Tail number: EI-DLN
+# Traffic density: 30%
+# Repeats every: ONE_DAY
+# Flight rules: IFR
+# Schedule:
+# Time	Departure	Destination		Altitude	FlightNumber
+# 0425Z	LEVC		LEST			FL330		7222
+# 0645Z LEST		LEVC			FL330		7223
+
+B738W-190,EI-DLN,30,ONE_DAY,IFR
+{
+	0425,LEST,330,7222
+	0645,LEVC,330,7223
+}
+
+# Aircraft type: B738W-190
+# Tail number: EI-DHG
+# Traffic density: 30%
+# Repeats every: ONE_DAY
+# Flight rules: IFR
+# Schedule:
+# Time	Departure	Destination		Altitude	FlightNumber
+# 0425Z	LEVC		LIME			FL330		4632
+# 0645Z LIME		LEVC			FL330		4631
+
+B738W-190,EI-DGH,30,ONE_DAY,IFR
+{
+	0425,LIME,340,4632
+	0645,LEVC,340,4631
+}
+
+# Aircraft type: B738W-190
+# Tail number: EI-DPD
+# Traffic density: 30%
+# Repeats every: ONE_DAY
+# Flight rules: IFR
+# Schedule:
+# Time	Departure	Destination		Altitude	FlightNumber
+# 1725Z	LIME		LEVC			FL330		4663
+# 1940Z LEVC		LIME			FL330		4664
+
+B738W-190,EI-DPD,30,ONE_DAY,IFR
+{
+	1725,LEVC,330,4663
+	1940,LIME,330,4664
+}
+
+# Aircraft type: B738W-190
+# Tail number: EI-DLN
+# Traffic density: 30%
+# Repeats every: ONE_DAY
+# Flight rules: IFR
+# Schedule:
+# Time	Departure	Destination		Altitude	FlightNumber
+# 1215Z	LEVC		LPPR			FL330		7228
+# 1420Z LPPR		LEVC			FL330		7229
+
+B738W-190,EI-DLN,30,ONE_DAY,IFR
+{
+	1215,LPPR,330,7228
+	1420,LEVC,330,7229
+}
