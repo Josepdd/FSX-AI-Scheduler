@@ -20,7 +20,6 @@
 #   not be accurate. They can be tweaked upward to get desireable distribution - CARGO
 #   spots are 50 meters so we call the 747 cargo variant 40 meters to make them be accepted
 #   as valid for CARGO parking areas.
-#
 
 # typeKey,Title,Cruise,minAlt,maxAlt,minRange,maxRange,minRwyLen,runwayTypes,radius,parkingTypes,IFR%,AutoRoute?,TouchAndGo?
 #,,(KTAS),(FL),(FL),(nm),(nm),(ft),,(m),,,,
