@@ -1,14 +1,11 @@
-# Aircraft type: CRJX-1/ATR726-1
+# Aircraft type: CRJX-1/ATR726-1 
 # Tail number: EC-JZV/EC-JZU
 # Traffic density: 30%
 # Repeats every: ONE_DAY
 # Flight rules: IFR
 # Schedule:
 # Time	Departure	Destination		Altitude	FlightNumber
-# 0400Z LEVC		LEMD			FL120		8999
-# 0605Z	LEMD		LEVC			FL120		8986
-# 0730Z LEVC		LEMD			FL120		8993
-# 0815Z LEVC 		LEMD			FL120		8987
+
 # 1010Z	LEMD		LEVC			FL120		8974
 # 1120Z LEVC		LEMD			FL120		8981
 # 1410Z LEMD		LEVC			FL124		8976
@@ -18,9 +15,6 @@
 
 CRJX-1,EC-JZV,30,ONE_DAY,IFR
 {
-	0400,LEMD,120,8999
-	0605,LEVC,130,8986
-	0730,LEMD,120,8993
 	1010,LEVC,130,8974
 	1120,LEMD,120,8981
 	1410,LEVC,130,8976
@@ -33,6 +27,17 @@ ATR726-1,EC-JZU,30,ONE_DAY,IFR
 	0815,LEMD,120,8987
 	1815,LEVC,130,8996
 }
+
+# Aircraft type: CRJ-900 - IBERIA 
+# Tail number: EC-JYV
+# Traffic density: 30%
+# Repeats every: ONE_DAY
+# Flight rules: IFR
+# Schedule:
+# Time	Departure	Destination		Altitude	FlightNumber
+# 0425Z	LEVC		LEMD			FL210		8999
+# 0650Z LEMD		LEVC			FL220		8986
+# 0815Z	LEVC		LEMD			FL190		8993
 
 # Aircraft type: B738W-190
 # Tail number: EI-DLN
