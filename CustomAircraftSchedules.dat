@@ -1,9 +1,9 @@
 # Aircraft type: 
 # Tail number: 
-# Traffic density: 
-# Repeats every: 
-# Flight rules: 
-# Route:
+# Traffic density: 30%
+# Repeats every: ONE_DAY
+# Flight rules: IFR
+# Route: 
 # Schedule:
 # Time	Departure	Destination		Altitude	FlightNumber
 
@@ -214,6 +214,73 @@ B738W-190,EI-DGH,30,ONE_DAY,IFR
 # 1245Z	LEVC		LSZH			FL380		2143
 # 1505Z	LSZH		LEVC			FL390		2146
 # 1750Z	LEVC		LSZH			FL380		2147
+
+# Aircraft type: AIRBUS A319 - NIKKI
+# Tail number: OE-LNE
+# Traffic density: 30%
+# Repeats every: ONE_DAY
+# Flight rules: IFR
+# Route: VIENA-VALENCIA
+# Schedule:
+# Time	Departure	Destination		Altitude	FlightNumber
+# 0435Z	LOWW		LEVC			FL390		8990
+# 0745Z	LEVC		LOWW			FL380		9881
+
+# Aircraft type: BOEING 737-800 - TRANSAVIA
+# Tail number: PH-XRB
+# Traffic density: 30%
+# Repeats every: ONE_DAY
+# Flight rules: IFR
+# Route: AMSTERDAM-VALENCIA
+# Schedule:
+# Time	Departure	Destination		Altitude	FlightNumber
+# 1005Z	EHAM		LEVC			FL330		6331
+# 1320Z	LEVC		EHAM			FL320		6332
+
+# Aircraft type: BOEING 737-800 - TRANSAVIA
+# Tail number: PH-XRC
+# Traffic density: 30%
+# Repeats every: ONE_DAY
+# Flight rules: IFR
+# Route: EINDHOVEN-VALENCIA
+# Schedule:
+# Time	Departure	Destination		Altitude	FlightNumber
+# 0510Z	EHEH		LEVC			FL390		5105
+# 0750Z	LEVC		EHEH			FL380		5106
+
+# Aircraft type: BOEING 737-800 - RYANAIR
+# Tail number: EI-DCW
+# Traffic density: 30%
+# Repeats every: ONE_DAY
+# Flight rules: IFR
+# Route: VALENCIA-FRANKFURT/HAHN
+# Schedule:
+# Time	Departure	Destination		Altitude	FlightNumber
+# 0755Z	LEVC		EDFH			FL380		9835
+# 1250Z EDFH		LEVC			FL370		9834
+# 1540Z	LEVC		EDFH			FL380		9833
+
+# Aircraft type: BOEING 717-200 - VOLOTEA
+# Tail number: EI-EXB
+# Traffic density: 30%
+# Repeats every: ONE_DAY
+# Flight rules: IFR
+# Route: NANTES-VALENCIA
+# Schedule:
+# Time	Departure	Destination		Altitude	FlightNumber
+# 0600Z	LFRS		LEVC			FL350		2230
+# 0800Z	LEVC		LFRS			FL340		2231
+
+# Aircraft type: CRJ-200 - IBERIA
+# Tail number: EC-HSH
+# Traffic density: 30%
+# Repeats every: ONE_DAY
+# Flight rules: IFR
+# Route: VALENCIA-MENORCA
+# Schedule:
+# Time	Departure	Destination		Altitude	FlightNumber
+# 0815Z	LEVC		LEMH			FL200		8734
+# 0940Z LEMH		LEVC			FL190		8735
 
 # Aircraft type: BOEING 737-800 - TRAVEL SERVICE
 # Tail number: OK-TVP
