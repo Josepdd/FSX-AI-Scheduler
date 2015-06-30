@@ -132,6 +132,83 @@ B738W-190,EI-DPD,30,ONE_DAY,IFR
 # 1100Z LEVC		EDDF			FL360		1161
 # 1850Z EDDF		LEVC			FL350		1164
 
+# Aircraft type: CRJ-900 - IBERIA
+# Tail number: EC-JTU
+# Traffic density: 30%
+# Repeats every: ONE_DAY
+# Flight rules: IFR
+# Route: VALENCIA-SEVILLA
+# Schedule:
+# Time	Departure	Destination		Altitude	FlightNumber
+# 0500Z LEVC		LEZL			FL370		8840
+# 0635Z LEZL		LEVC			FL380		8841
+
+# Aircraft type: CRJ-200 - IBERIA
+# Tail number: EC-HSH
+# Traffic density: 30%
+# Repeats every: ONE_DAY
+# Flight rules: IFR
+# Route: VALENCIA-BILBAO
+# Schedule:
+# Time	Departure	Destination		Altitude	FlightNumber
+# 0500Z	LEVC		LEBB			FL320		8948
+# 0640Z LEBB		LEVC			FL310		8935
+
+# Aircraft type: ATR-72-600 - IBERIA
+# Tail number: EC-LRU
+# Traffic density: 30%
+# Repeats every: ONE_DAY
+# Flight rules: IFR
+# Route: VALENCIA-IBIZA
+# Schedule:
+# Time	Departure	Destination		Altitude	FlightNumber
+# 0500Z	LEVC		LEIB			FL160		8430
+# 0645Z	LEIB		LEVC			FL150		8441
+
+# Aircraft type: CRJ-200 - IBERIA
+# Tail number: EC-HSH
+# Traffic density: 30%
+# Repeats every: ONE_DAY
+# Flight rules: IFR
+# Route: VALENCIA-SEVILLA
+# Schedule:
+# Time	Departure	Destination		Altitude	FlightNumber
+# 1135Z	LEVC		LEZL			FL370		8846
+# 1745Z LEZL		LEVC			FL380		8847
+
+# Aircraft type: CRJ-900 - IBERIA
+# Tail number: EC-JTS
+# Traffic density: 30%
+# Repeats every: ONE_DAY
+# Flight rules: IFR
+# Route: VALENCIA-BILBAO
+# Schedule:
+# Time	Departure	Destination		Altitude	FlightNumber
+# 1540Z LEVC		LEBB			FL320		8938
+# 1720Z	LEBB		LEVC			FL310		8949
+
+# Aircraft type: CRJ-900 - IBERIA
+# Tail number: EC-JYV
+# Traffic density: 30%
+# Repeats every: ONE_DAY
+# Flight rules: IFR
+# Route: VALENCIA-SEVILLA
+# Schedule:
+# Time	Departure	Destination		Altitude	FlightNumber
+# 1815Z	LEVC		LEZL			FL370		8844
+# 2030Z	LEZL		LEVC			FL380		8849
+
+# Aircraft type: ATR-72-600 - IBERIA
+# Tail number: EC-LRU
+# Traffic density: 30%
+# Repeats every: ONE_DAY
+# Flight rules: IFR
+# Route: VALENCIA-IBIZA
+# Schedule:
+# Time	Departure	Destination		Altitude	FlightNumber
+# 2010Z LEVC		LEIB			FL160		8434
+# 2125Z LEIB		LEVC			FL150		8439
+
 # Aircraft type: B738W-190
 # Tail number: EI-DLN
 # Traffic density: 30%
