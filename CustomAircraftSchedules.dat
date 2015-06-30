@@ -20,30 +20,6 @@
 # 0815Z	LEVC		LEMD			FL190		8987
 # 1010Z LEMD		LEVC			FL220		8974
 
-# Aircraft type: CRJ-900 - IBERIA
-# Tail number: EC-JZV
-# Traffic density: 30%
-# Repeats every: ONE_DAY
-# Flight rules: IFR
-# Route: VALENCIA-MADRID
-# Schedule:
-# Time	Departure	Destination		Altitude	FlightNumber
-# 0730Z	LEVC		LEMD			FL210		8993
-# 1420Z LEMD		LEVC			FL220		8976
-# 1650Z LEVC		LEMD			FL210		8977
-# 2050Z	LEMD		LEVC			FL220		8982
-
-# Aircraft type: ATR-72-600 - IBERIA
-# Tail number: EC-LRU
-# Traffic density: 30%
-# Repeats every: ONE_DAY
-# Flight rules: IFR
-# Route: VALENCIA-MADRID
-# Schedule:
-# Time	Departure	Destination		Altitude	FlightNumber
-# 1120Z	LEVC		LEMD			FL170		8981
-# 1835Z	LEMD		LEVC			FL160		8996
-
 # Aircraft type: BOEING 737-800 - RYANAIR
 # Tail number: EI-DLN
 # Traffic density: 30%
@@ -76,23 +52,6 @@ B738W-190,EI-DGH,30,ONE_DAY,IFR
 {
 	0425,LIME,340,4632
 	0645,LEVC,340,4631
-}
-
-# Aircraft type: BOEING 737-800 - RYANAIR
-# Tail number: EI-DPD
-# Traffic density: 30%
-# Repeats every: ONE_DAY
-# Flight rules: IFR
-# Route: MILAN/BERGAMO - VALENCIA
-# Schedule:
-# Time	Departure	Destination		Altitude	FlightNumber
-# 1725Z	LIME		LEVC			FL330		4663
-# 1940Z LEVC		LIME			FL330		4664
-
-B738W-190,EI-DPD,30,ONE_DAY,IFR
-{
-	1725,LEVC,330,4663
-	1940,LIME,330,4664
 }
 
 # Aircraft type: EMBRAER 145 - TAP PORTUGAL
@@ -165,6 +124,132 @@ B738W-190,EI-DPD,30,ONE_DAY,IFR
 # 0500Z	LEVC		LEIB			FL160		8430
 # 0645Z	LEIB		LEVC			FL150		8441
 
+# Aircraft type: BOEING 737-800 - AIR EUROPA
+# Tail number: EC-JHL
+# Traffic density: 30%
+# Repeats every: ONE_DAY
+# Flight rules: IFR
+# Route: VALENCIA-PARIS/CHARLES DE GAULLE
+# Schedule:
+# Time	Departure	Destination		Altitude	FlightNumber
+# 0505Z	LEVC		LFPG			FL380		1005
+# 0810Z	LFPG		LEVC			FL370		1006
+# 1100Z	LEVC		LFPG			FL380		1007
+# 1415Z	LFPG		LEVC			FL370		1004
+# 1705Z	LEVC		LFPG			FL380		1009
+# 2015Z	LFPG		LEVC			FL390		1008
+
+# Aircraft type: AIRBUS A320 - VUELING
+# Tail number: EC-KRH
+# Traffic density: 30%
+# Repeats every: ONE_DAY
+# Flight rules: IFR
+# Route: VALENCIA-PARIS/ORLY
+# Schedule:
+# Time	Departure	Destination		Altitude	FlightNumber
+# 0545Z	LEVC		LFPO			FL380		8152
+# 0815Z	LFPO		LEVC			FL390		8153
+
+# Aircraft type: ATR-72-500 - AIR EUROPA
+# Tail number: EC-LYJ
+# Traffic density: 30%
+# Repeats every: ONE_DAY
+# Flight rules: IFR
+# Route: VALENCIA-MADRID//VALENCIA-PALMA DE MALLORCA
+# Schedule:
+# Time	Departure	Destination		Altitude	FlightNumber
+# 0505Z	LEMD		LEVC			FL180		4063
+# 1020Z	LEVC		LEMD			FL190		4064
+# 1230Z	LEMD		LEVC			FL180		4065
+# 1410Z LEVC 		LEPA			FL190		4014
+# 1545Z	LEPA		LEVC			FL180		4011	
+# 1725Z LEVC		LEMD			FL190		4060
+
+# Aircraft type: EMBRAER 190 - AIR EUROPA
+# Tail number: EC-LEK
+# Traffic density: 30%
+# Repeats every: ONE_DAY
+# Flight rules: IFR
+# Route: VALENCIA-PALMA DE MALLORCA
+# Schedule:
+# Time	Departure	Destination		Altitude	FlightNumber
+# 0530Z	LEPA		LEVC			FL230		4005
+# 0705Z LEVC		LEPA			FL220		4004
+
+# Aircraft type: BOEING 737-800 - RYANAIR
+# Tail number: EI-ENF
+# Traffic density: 30%
+# Repeats every: 4_DAY
+# Flight rules: IFR
+# Route: VALENCIA-MARSELLA
+# Schedule:
+# Time	Departure	Destination		Altitude	FlightNumber
+# 0430Z	LFML		LEVC			FL310		7293
+# 0635Z	LEVC		LFML			FL300		7292
+
+# Aircraft type: AIRBUS A320 - VUELING
+# Tail number: EC-LOB
+# Traffic density: 30%
+# Repeats every: ONE_DAY
+# Flight rules: IFR
+# Route: PALMA DE MALLORCA-VALENCIA
+# Schedule:
+# Time	Departure	Destination		Altitude	FlightNumber
+# 0600Z LEPA		LEVC			FL230		3954
+# 0730Z LEVC		LEPA			FL220		3951
+# 1605Z	LEPA		LEVC			FL230		3950
+# 1930Z LEVC		LEPA			FL220		3952
+
+# Aircraft type: AIRBUS A321 - SWISS AIR
+# Tail number: HB-IDD
+# Traffic density: 30%
+# Repeats every: ONE_DAY
+# Flight rules: IFR
+# Route: VALENCIA-ZURICH
+# Schedule:
+# Time	Departure	Destination		Altitude	FlightNumber
+# 0500Z	LSZH		LEVC			FL390		2140
+# 0740Z LEVC		LSZH			FL380		2141
+# 0955Z	LSZH		LEVC			FL390		2142
+# 1245Z	LEVC		LSZH			FL380		2143
+# 1505Z	LSZH		LEVC			FL390		2146
+# 1750Z	LEVC		LSZH			FL380		2147
+
+# Aircraft type: BOEING 737-800 - TRAVEL SERVICE
+# Tail number: OK-TVP
+# Traffic density: 30%
+# Repeats every: ONE_DAY
+# Flight rules: IFR
+# Route: VALENCIA-PRAGA
+# Schedule:
+# Time	Departure	Destination		Altitude	FlightNumber
+# 1635Z	LKPR		LEVC			FL350		1054
+# 2005Z	LEVC		LKPR			FL360		1055
+
+# Aircraft type: CRJ-900 - IBERIA
+# Tail number: EC-JZV
+# Traffic density: 30%
+# Repeats every: ONE_DAY
+# Flight rules: IFR
+# Route: VALENCIA-MADRID
+# Schedule:
+# Time	Departure	Destination		Altitude	FlightNumber
+# 0730Z	LEVC		LEMD			FL210		8993
+# 1420Z LEMD		LEVC			FL220		8976
+# 1650Z LEVC		LEMD			FL210		8977
+# 2050Z	LEMD		LEVC			FL220		8982
+
+# Aircraft type: ATR-72-600 - IBERIA
+# Tail number: EC-LRU
+# Traffic density: 30%
+# Repeats every: ONE_DAY
+# Flight rules: IFR
+# Route: VALENCIA-MADRID
+# Schedule:
+# Time	Departure	Destination		Altitude	FlightNumber
+# 1120Z	LEVC		LEMD			FL170		8981
+# 1835Z	LEMD		LEVC			FL160		8996
+
 # Aircraft type: CRJ-200 - IBERIA
 # Tail number: EC-HSH
 # Traffic density: 30%
@@ -175,39 +260,6 @@ B738W-190,EI-DPD,30,ONE_DAY,IFR
 # Time	Departure	Destination		Altitude	FlightNumber
 # 1135Z	LEVC		LEZL			FL370		8846
 # 1745Z LEZL		LEVC			FL380		8847
-
-# Aircraft type: CRJ-900 - IBERIA
-# Tail number: EC-JTS
-# Traffic density: 30%
-# Repeats every: ONE_DAY
-# Flight rules: IFR
-# Route: VALENCIA-BILBAO
-# Schedule:
-# Time	Departure	Destination		Altitude	FlightNumber
-# 1540Z LEVC		LEBB			FL320		8938
-# 1720Z	LEBB		LEVC			FL310		8949
-
-# Aircraft type: CRJ-900 - IBERIA
-# Tail number: EC-JYV
-# Traffic density: 30%
-# Repeats every: ONE_DAY
-# Flight rules: IFR
-# Route: VALENCIA-SEVILLA
-# Schedule:
-# Time	Departure	Destination		Altitude	FlightNumber
-# 1815Z	LEVC		LEZL			FL370		8844
-# 2030Z	LEZL		LEVC			FL380		8849
-
-# Aircraft type: ATR-72-600 - IBERIA
-# Tail number: EC-LRU
-# Traffic density: 30%
-# Repeats every: ONE_DAY
-# Flight rules: IFR
-# Route: VALENCIA-IBIZA
-# Schedule:
-# Time	Departure	Destination		Altitude	FlightNumber
-# 2010Z LEVC		LEIB			FL160		8434
-# 2125Z LEIB		LEVC			FL150		8439
 
 # Aircraft type: B738W-190
 # Tail number: EI-DLN
@@ -224,3 +276,75 @@ B738W-190,EI-DLN,30,ONE_DAY,IFR
 	1215,LPPR,330,7228
 	1420,LEVC,330,7229
 }
+
+# Aircraft type: CRJ-900 - IBERIA
+# Tail number: EC-JTS
+# Traffic density: 30%
+# Repeats every: ONE_DAY
+# Flight rules: IFR
+# Route: VALENCIA-BILBAO
+# Schedule:
+# Time	Departure	Destination		Altitude	FlightNumber
+# 1540Z LEVC		LEBB			FL320		8938
+# 1720Z	LEBB		LEVC			FL310		8949
+
+# Aircraft type: AIRBUS A320 - VUELING
+# Tail number: EC-KRH
+# Traffic density: 30%
+# Repeats every: ONE_DAY
+# Flight rules: IFR
+# Route: VALENCIA-PARIS/ORLY
+# Schedule:
+# Time	Departure	Destination		Altitude	FlightNumber
+# 1630Z LEVC		LFPO			FL390		8154
+# 1905Z LFPO		LEVC			FL380		8155
+
+# Aircraft type: BOEING 737-800 - RYANAIR
+# Tail number: EI-DPD
+# Traffic density: 30%
+# Repeats every: ONE_DAY
+# Flight rules: IFR
+# Route: MILAN/BERGAMO - VALENCIA
+# Schedule:
+# Time	Departure	Destination		Altitude	FlightNumber
+# 1725Z	LIME		LEVC			FL330		4663
+# 1940Z LEVC		LIME			FL330		4664
+
+B738W-190,EI-DPD,30,ONE_DAY,IFR
+{
+	1725,LEVC,330,4663
+	1940,LIME,330,4664
+}
+
+# Aircraft type: CRJ-900 - IBERIA
+# Tail number: EC-JYV
+# Traffic density: 30%
+# Repeats every: ONE_DAY
+# Flight rules: IFR
+# Route: VALENCIA-SEVILLA
+# Schedule:
+# Time	Departure	Destination		Altitude	FlightNumber
+# 1815Z	LEVC		LEZL			FL370		8844
+# 2030Z	LEZL		LEVC			FL380		8849
+
+# Aircraft type: EMBRAER 190 - AIR EUROPA
+# Tail number: EC-LIN
+# Traffic density: 30%
+# Repeats every: ONE_DAY
+# Flight rules: IFR
+# Route: VALENCIA - PALMA DE MALLORCA
+# Schedule:
+# Time	Departure	Destination		Altitude	FlightNumber
+# 1810Z	LEPA		LEVC			FL230		4013
+# 1945Z	LEVC		LEPA			FL220		4012
+
+# Aircraft type: ATR-72-600 - IBERIA
+# Tail number: EC-LRU
+# Traffic density: 30%
+# Repeats every: ONE_DAY
+# Flight rules: IFR
+# Route: VALENCIA-IBIZA
+# Schedule:
+# Time	Departure	Destination		Altitude	FlightNumber
+# 2010Z LEVC		LEIB			FL160		8434
+# 2125Z LEIB		LEVC			FL150		8439
