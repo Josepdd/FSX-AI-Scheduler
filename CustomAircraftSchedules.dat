@@ -565,3 +565,58 @@ B738W-190,EI-DPD,30,ONE_DAY,IFR
 # Time	Departure	Destination		Altitude	FlightNumber
 # 2010Z LEVC		LEIB			FL160		8434
 # 2125Z LEIB		LEVC			FL150		8439
+
+# Aircraft type: BOEING 737-800 - RYANAIR
+# Tail number: EI-DAC
+# Traffic density: 30%
+# Repeats every: ONE_DAY
+# Flight rules: IFR
+# Route: VALENCIA-BOLONIA
+# Schedule:
+# Time	Departure	Destination		Altitude	FlightNumber
+# 0825Z	LIPE		LEVC			FL370		6423
+# 1100Z LEVC		LIPE			FL380		6422
+
+# Aircraft type: AIRBUS A320 - VUELING
+# Tail number: EC-KRH
+# Traffic density: 30%
+# Repeats every: ONE_DAY
+# Flight rules: IFR
+# Route: VALENCIA-BRUSELAS
+# Schedule:
+# Time	Departure	Destination		Altitude	FlightNumber
+# 1035Z	LEVC		EBBR			FL360		8920
+# 1340Z	EBBR		LEVC			FL350		8921
+
+# Aircraft type: AIRBUS A320 - VUELING
+# Tail number: EC-KDG
+# Traffic density: 30%
+# Repeats every: ONE_DAY
+# Flight rules: IFR
+# Route: ROMA/CIAMPINO - VALENCIA
+# Schedule:
+# Time	Departure	Destination		Altitude	FlightNumber
+# 1340Z	LIRF		LEVC			FL380		6245
+# 1630Z	LEVC		LIRF			FL370 		6244
+
+# Aircraft type: SAAB 20 - ETIHAD
+# Tail number: HB-IZZ
+# Traffic density: 30%
+# Repeats every: ONE_DAY
+# Flight rules: IFR
+# Route: GINEBRA-VALENCIA
+# Schedule:
+# Time	Departure	Destination		Altitude	FlightNumber
+# 0910Z	LSGG		LEVC			FL270		0350
+# 1150Z	LEVC		LSGG			FL260		0351
+
+# Aircraft type: CRJ-900 - IBERIA
+# Tail number: EC-JYV
+# Traffic density: 30%
+# Repeats every: ONE_DAY
+# Flight rules: IFR
+# Route: VALENCIA-PALMA DE MALLORCA
+# Schedule:
+# Time	Departure	Destination		Altitude	FlightNumber
+# 1135Z	LEVC		LEPA			FL160		8634
+# 1520Z	LEPA		LEVC			FL150		8633
