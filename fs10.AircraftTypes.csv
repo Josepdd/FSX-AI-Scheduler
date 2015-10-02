@@ -1,6 +1,5 @@
 # List of aircraft types to use in the traffic database
 # Open in Excel as a comma delimited file for viewing/editing
-
 # Notes:
 #   typeKey = a unique keyword used to identify this type of aircraft (max 15 chars)
 #   title = the aircraft title string from aircraft.cfg
@@ -20,7 +19,6 @@
 #   not be accurate. They can be tweaked upward to get desireable distribution - CARGO
 #   spots are 50 meters so we call the 747 cargo variant 40 meters to make them be accepted
 #   as valid for CARGO parking areas.
-
 # typeKey,Title,Cruise,minAlt,maxAlt,minRange,maxRange,minRwyLen,runwayTypes,radius,parkingTypes,IFR%,AutoRoute?,TouchAndGo?
 #,,(KTAS),(FL),(FL),(nm),(nm),(ft),,(m),,,,
 #A3ST,A3STAIB,400,250,300,50,2500,5990,HARD,40,CARGO|RAMP,100,yes,no
